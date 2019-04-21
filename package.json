@@ -1,0 +1,28 @@
+{
+  "name": "newsscraping",
+  "version": "1.0.0",
+  "description": "packagses for newsScraping application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyryo513/newsScraping.git"
+  },
+  "author": "yi he",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyryo513/newsScraping/issues"
+  },
+  "homepage": "https://github.com/hyryo513/newsScraping#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "axios": "^0.18.0",
+    "mongoose": "^5.5.1",
+    "cheerio": "^1.0.0-rc.3",
+    "nodemon": "^1.18.11",
+    "dotenv": "^7.0.0"
+  }
+}
